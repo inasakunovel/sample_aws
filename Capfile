@@ -21,7 +21,7 @@ require "capistrano/nginx"
 # require "capistrano/scm/svn"
 # install_plugin Capistrano::SCM::Svn
 # or
-require "capistrano/scm/git"
+# require "capistrano/scm/git"
 install_plugin Capistrano::SCM::Git
 install_plugin Capistrano::Puma
 install_plugin Capistrano::Puma::Nginx
