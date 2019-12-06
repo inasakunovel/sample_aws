@@ -49,6 +49,8 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   # use capistrano for aws
+  gem 'ed25519'
+  gem 'bcrypt_pbkdf'
   gem 'capistrano'
   gem 'capistrano-rbenv'
   gem 'capistrano-rbenv'
@@ -56,9 +58,6 @@ group :development do
   gem 'capistrano-rails'
   gem 'capistrano3-puma'
   gem 'capistrano-nginx'
-  gem 'capistrano'
-  gem 'ed25519'
-  gem 'bcrypt_pbkdf'
 end
 
 group :test do
